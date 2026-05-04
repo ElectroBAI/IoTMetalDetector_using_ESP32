@@ -4,7 +4,7 @@ This project is a sophisticated **IoT & Low-Power** application that transforms 
 
 ---
 
-## ## Features
+## Features
 *   **Real-Time Web Dashboard**: A modern, CSS-animated interface hosted directly on the ESP32 featuring "SAFE" and "ALERT" status indicators.
 *   **Visual & Audio Feedback**: On-board LED and optional buzzer activation upon detection.
 *   **JSON API Endpoints**: Provides `/api/status` and `/api/detection` routes, allowing the device to integrate with larger **Industrial & Embedded** monitoring systems.
@@ -13,7 +13,7 @@ This project is a sophisticated **IoT & Low-Power** application that transforms 
 
 ---
 
-## ## Hardware Requirements
+## Hardware Requirements
 Following the **Maker & Education** hardware standards, this project is designed for accessible yet powerful microcontrollers.
 
 *   **Microcontroller**: ESP32 (selected for its integrated WiFi and high-speed processing).
@@ -31,7 +31,7 @@ Following the **Maker & Education** hardware standards, this project is designed
 
 ---
 
-## ## Software Architecture
+## Software Architecture
 1.  **WiFi Connectivity**: Connects to a local network to serve the web interface.
 2.  **Sensor Polling**: The `loop()` function monitors GPIO 2 every 50ms for a state change.
 3.  **JSON Processing**: Uses the `ArduinoJson` library to package system health data for the web client.
